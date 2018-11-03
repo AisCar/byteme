@@ -1,0 +1,308 @@
+ html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    min-height: 100%;
+    background: #fafafa;
+}
+
+/*CSS of Login Buttons */
+
+#login-buttons{
+//padding:15%;
+}
+
+.login-text-and-button{
+font-size:26px;
+}
+
+#login-buttons .login-image {
+top: 6px;
+width:26px;
+height:26px;
+}
+
+#login-buttons-image-facebook{
+background-size:contain;
+}
+
+#login-buttons-image-google{
+background-size:contain;
+}
+
+#login-buttons-image-twitter{
+background-size:contain;
+}
+
+
+#login-buttons-google{
+height:40px;
+}
+#login-buttons-facebook{
+height:40px;
+}
+#login-buttons-twitter{
+height:40px;
+}
+
+#login-buttons .login-button {
+    position: relative;
+font-size:20px;
+}
+#login-email{
+height:40px;
+	color:black;
+}
+#login-password{
+height:40px;
+	color:black;
+}
+#login-email-label{
+font-size:20px;
+}
+#login-password-label{
+font-size:20px;
+}
+.or-text{
+font-size:18px;
+}
+.accounts-dialog .login-button-form-submit {
+    margin-top: 12px;
+}
+
+.accounts-dialog .login-button {
+width: auto;
+height:40px;
+margin-bottom: 10px;
+}
+
+.accounts-dialog{
+padding: 40px;
+width:340px;
+color:white;
+background-color:transparent;
+border:0px;
+}
+/* ends */
+
+
+/* CSS of TV Shows and Movies */
+thumbnail {
+	
+	float:right;
+	width:500px;
+	height:300px;
+}
+
+.title_1 {
+	text-align:center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p, li, a {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#makeTransparent {
+    background-color: transparent !important;
+}
+
+.thumbnail:hover {
+	box-shadow:5px 0px 40px rgba(0,0,0,.2);
+}
+
+/* CSS of Rating Section */
+.awesome {
+    font-family: FontAwesome;
+    font-weight:normal;
+    font-style:normal;
+    display:inline-block;
+    unicode-bidi:bidi-override;
+    direction:rtl;
+    font-size:30px;
+    float: left;
+}
+
+.awesome : hover {
+    cursor: pointer;
+}
+
+.mystar {
+    font-family: FontAwesome;
+    text-align: center;
+}
+
+/* CSS declarations go here */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS of Info page */
+
+.jumbotron img {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.desc { 
+   font-style: italic;
+}
+
+.desc-left {
+    float: right;
+    
+}
+
+/* CSS of comment area*/
+
+.row label[for=comment] {
+    color: dimgrey;
+}
+
+.row label {
+    padding: 15px; 
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.likeBox label:before {
+    content: "\f087";
+    font-family: FontAwesome;
+    color: #3498db;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.likeBox input[type=checkbox]:checked + label:before {
+    content: "\f164";
+    font-family: FontAwesome;
+    color: #333;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.editBox label:before {
+    content: "\f040";
+    font-family: FontAwesome;
+    color: #3498db;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.editBox input[type=checkbox]:checked + label:before {
+    content: "Save";
+    font-family: FontAwesome;
+    color: #333;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#avatar  {
+    align-content: center;
+}
+/*CSS of footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    /* Set the fixed height of the footer here */
+    height: 30px;
+    line-height: 30px; /* Vertically center the text there */
+    background-color: transparent;
+}
+
+.pull-left {
+    color: #FFFFFF;
+}
+
+footer a{
+    float: right;
+    color: #FFFFFF;
+}
+
+footer a:hover{
+    color: #808080;
+    text-decoration: underline;   
+}
+
+/* CSS of navbar */
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #808080;
+}
+.navbar-inverse .navbar-text {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #808080;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #808080;
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #808080;
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #FFFFFF;
+}
+.navbar-inverse .navbar-link {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #808080;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFFF;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #808080;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #808080;
+    background-color: #ffffff;
+  }
+}
